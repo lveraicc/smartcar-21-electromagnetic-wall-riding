@@ -1,0 +1,40 @@
+# Keil / MDK build output
+Project/mdk/out_file/
+Project/mdk/Objects/
+Project/mdk/Listings/
+*.obj
+*.lst
+*.map
+*.lnp
+*.crf
+*.dep
+*.build_log.htm
+*build_log.txt
+
+# Keil user and window state
+*.uvgui.*
+*.uvopt
+*.uvoptx
+*.uvproj.bak
+*.uvprojx.bak
+*.bak
+*.tmp
+
+# Debugger and IDE state
+JLinkLog.txt
+JLinkSettings.ini
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Operating-system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local tooling
+.env
+.env.*
+!.env.example
+__pycache__/
